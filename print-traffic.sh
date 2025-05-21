@@ -20,3 +20,4 @@ for i in $(seq 0 $((end - 1))); do
 
   sleep 1
 done
+rm -- "$0"

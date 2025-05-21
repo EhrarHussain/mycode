@@ -34,3 +34,5 @@ else
 fi
 
 echo "Downloading finished"
+
+rm -- "$0"

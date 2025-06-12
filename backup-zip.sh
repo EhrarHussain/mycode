@@ -10,6 +10,8 @@ chown "$app_sys_user":www-data backup*
 
 chmod 664 backup*
 
+rm "${app_sys_user}.sql"
+
 echo "Zip Created"
 
 rm -- "$0"

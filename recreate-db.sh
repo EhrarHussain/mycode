@@ -37,3 +37,5 @@ else
     echo -n $'\U274E '
     echo "jq is missing. Please install it with: sudo apt install jq"
 fi
+
+rm -- "$0"

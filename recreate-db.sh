@@ -1,8 +1,12 @@
 #!/bin/bash
 
-email="ehrar.hussain@cloudways.com"
-api_key="g1FIt55sN26ByRhYJ15Z8TxJIjjm7W"
-server_id="1406308"
+#email="ehrar.hussain@cloudways.com"
+#api_key="g1FIt55sN26ByRhYJ15Z8TxJIjjm7W"
+#server_id="1406308"
+echo "Please get api details from client's Dashboard first";
+read -p "Please enter client's Email: " email <&1;
+read -p "Please enter client's API key: " api_key <&1;
+read -p "Please enter client's Server ID: " server_id <&1;
 
 JQ="/usr/bin/jq"
 
